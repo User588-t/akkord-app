@@ -7,15 +7,15 @@
   "background_color": "#faf9f5",
   "theme_color": "#b5651d",
   "icons": [
-    {
-      "src": "https://via.placeholder.com/192",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://via.placeholder.com/512",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  {
+    "src": "/akkord-app/icon-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/akkord-app/icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
 }
