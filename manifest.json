@@ -2,9 +2,11 @@
   "name": "Akkord App",
   "short_name": "Akkorde",
   "description": "Akkord-App für christliche Liederbücher",
+  "version": "1.0",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#faf9f5",
+  "language": "ru",
   "theme_color": "#b5651d",
   "icons": [
     {
@@ -17,5 +19,27 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+    "songs": [
+    {
+      "id": 1,
+      "title": "Удивительная благодать",
+      "titleAlt": "Amazing Grace",
+      "key": "G",
+      "bpm": 80,
+      "tags": ["классика", "хвала"],
+      "language": "ru",
+      "chordpro": "{title: Удивительная благодать}\n{key: G}\n\n[G]Удивительная [C]благодать,\n[G]Как сладок этот [D]звук!\n[G]Я был потерян, [C]но найден,\n[G]Был [D]слеп — теперь [G]гляжу."
+    },
+    {
+      "id": 2,
+      "title": "Großer Gott",
+      "key": "C",
+      "bpm": 70,
+      "tags": ["gottesdienst", "klassik"],
+      "language": "de",
+      "chordpro": "{title: Großer Gott}\n{key: C}\n\n[C]Großer [F]Gott, wir [C]loben [G]dich,\n[C]Herr, wir [F]preisen [C]deine [G]Stärke.\n[C]Vor dir [F]neigt die [C]Erde [G]sich\n[C]und be [F]wundert [C]deine [G]Werke."
+    }
   ]
+}
 }
